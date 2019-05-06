@@ -1,0 +1,35 @@
+#header{
+    position:absolute;
+    width:100%;
+}
+.card{
+    position:absolute;
+    width:100%;
+    opacity:0.0;
+    z-index:0;
+    overflow-y:hidden;
+
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -ms-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+}
+.activate{
+    z-index:5;
+    opacity:1.0;
+}
+.hide{
+    display:none;
+}
+.menu{
+    z-index:1;
+    cursor:pointer;
+
+}
+#center{
+    height:500px;
+}
+footer{
+    z-index:5;
+}
